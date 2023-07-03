@@ -1,0 +1,4 @@
+baseURL = "https://opensourcegardens.info/"
+languageCode = "en-us"
+title = "Open Source Gardens"
+theme = 'ananke'

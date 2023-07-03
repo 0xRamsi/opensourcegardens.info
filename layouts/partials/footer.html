@@ -1,0 +1,22 @@
+{{ $mastodon := resources.Get
+"pics/social-icons/nav-button-mastodon-green-80p.png" }} {{ $email :=
+resources.Get "pics/social-icons/nav-button-envelope-green-80p.png" }} {{
+$matrix := resources.Get "pics/social-icons/nav-button-matrix-green-80p.png" }}
+{{ $about := resources.Get "pics/social-icons/nav-button-about-green-80p.png" }}
+
+<footer>
+  <p class="tagline">"Openness sown - freedom grown!"</p>
+
+  <div>
+    <a href="https://chaos.social/@opensourcegardens"
+      ><img src="{{ $mastodon.RelPermalink }}" />Mastodon</a
+    >
+    <a href="https://app.element.io/#/room/#open-source-gardens:matrix.org"
+      ><img src="{{ $matrix.RelPermalink }}" />Matrix</a
+    >
+    <a href="mailto:contact@opensourcegardens.info"
+      ><img src="{{ $email.RelPermalink }}" />Contact</a
+    >
+    <a href="/about"><img src="{{ $about.RelPermalink }}" />About</a>
+  </div>
+</footer>
