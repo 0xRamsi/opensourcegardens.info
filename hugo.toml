@@ -1,4 +1,4 @@
-baseURL = "https://opensourcegardens.info/"
+baseURL = "https://0xramsi.github.io/opensourcegardens.info"
 languageCode = "en-us"
 title = "Open Source Gardens"
 theme = 'ananke'

@@ -17,6 +17,8 @@ $matrix := resources.Get "pics/social-icons/nav-button-matrix-green-80p.png" }}
     <a href="mailto:contact@opensourcegardens.info"
       ><img src="{{ $email.RelPermalink }}" />Contact</a
     >
-    <a href="/about"><img src="{{ $about.RelPermalink }}" />About</a>
+    <a href="{{ .Site.BaseURL }}/about"
+      ><img src="{{ $about.RelPermalink }}" />About</a
+    >
   </div>
 </footer>

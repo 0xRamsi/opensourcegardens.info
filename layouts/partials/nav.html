@@ -1,12 +1,12 @@
 <nav>
-  <a href="/" class="header-link">
+  <a href="{{ .Site.BaseURL }}" class="header-link">
     <h2 class="heading">{{ .Site.Title }}</h2>
   </a>
   <ul>
-    <li><a href="/news">News</a></li>
-    <li><a href="/community">Community</a></li>
-    <li><a href="/seeds">Seeds</a></li>
-    <li><a href="/technologies">Technologies</a></li>
+    <li><a href="{{ .Site.BaseURL }}/news">News</a></li>
+    <li><a href="{{ .Site.BaseURL }}/community">Community</a></li>
+    <li><a href="{{ .Site.BaseURL }}/seeds">Seeds</a></li>
+    <li><a href="{{ .Site.BaseURL }}/technologies">Technologies</a></li>
   </ul>
 
   {{ $image := resources.Get "pics/logo-green-400px.png" }}
