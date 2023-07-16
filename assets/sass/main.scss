@@ -20,7 +20,7 @@ a {
     color: #0d372d;
   }
   padding: 0.2rem 0.2rem;
-  border-radius: 0.5rem;
+  border-radius: 0.5em;
 }
 
 a.header-link {
@@ -63,12 +63,13 @@ nav {
   }
 }
 
-h1 {
+h1,
+h2,
+h3 {
   color: #3bd515;
-  text-align: center;
 }
-h2 {
-  color: #3bd515;
+h1 {
+  text-align: center;
 }
 
 h2.heading {
