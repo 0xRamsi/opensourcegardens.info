@@ -1,7 +1,7 @@
 <ul>
   {{ range .Page.Fragments.Headings }} {{ range .Headings }}
   <li>
-    <a href="#{{ .ID }}">{{ .Title }}</a>
+    <a href="#{{ .ID }}">{{ htmlUnescape (plainify .Title) }}</a>
   </li>
   {{ end }} {{ end }}
 </ul>
