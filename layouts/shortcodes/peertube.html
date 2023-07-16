@@ -1,0 +1,9 @@
+<div style="position: relative; padding-bottom: 57%;">
+  <iframe
+  src="{{ .Get "src" }}"
+  allowfullscreen=""
+  sandbox="allow-same-origin allow-scripts allow-popups"
+  frameborder="0"
+  style="position: absolute; width: {{with .Get "width"}} {{ . }} {{else}}100%{{end}}; height: {{with .Get "height"}} {{ . }} {{else}}100%{{end}}"
+  ></iframe>
+</div>
