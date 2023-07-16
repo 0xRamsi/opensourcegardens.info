@@ -1,0 +1,7 @@
+<ul>
+  {{ range .Page.Fragments.Headings }} {{ range .Headings }}
+  <li>
+    <a href="#{{ .ID }}">{{ .Title }}</a>
+  </li>
+  {{ end }} {{ end }}
+</ul>

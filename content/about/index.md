@@ -8,10 +8,7 @@ Open Source Gardens connects people via Open Source (philosophy, seeds, software
 
 Table of content:
 
-- [What is Open Source?](#what-is-open-source)
-- [What are Open Source Seeds?](#what-are-open-source-seeds)
-- [Why Open Source Gardens?](#why-open-source-gardens)
-- [Who is behind Open Source Gardens?](#who-is-behind-open-source-gardens)
+{{< createTableOfContents >}}
 
 ## What is Open Source?
 
