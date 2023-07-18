@@ -44,7 +44,7 @@ We love pictures and videos of your plants, gardens and tools. We are working on
 
 ### Information material
 
-We meanwhile have produced some information material and material for practical use, from posters to seed bags. You can [find an overview of our material on our media page](/media).
+We meanwhile have produced some information material and material for practical use, from posters to seed bags. You can [find an overview of our material on our media page][media].
 
 {{< showImage src="2022-bundb-poster-800px.jpg" width="100%" >}}
 
@@ -62,9 +62,9 @@ Best method doing so is to you use regionally adapted "old varieties". These evo
 
 > _"I will have my new breeding declared common property through OpenSourceSeeds, so that in the future it can be grown all over the world and never in a lifetime a corporation like Monsanto can acquire the rights to my variety! It will then be common property, I will get my deserved recognition as a breeder and thousands of gardeners and tomato lovers can enjoy my success. I owe that to my grandfather, and to everyone out there who supports my project." - [Don Giardino, "Self-Sufficient"](https://www.don-giardino.com/2020/09/15/zuchterfolg-dg-san-pizzuolo-und-wie-es-weiter-geht/)_
 
-[about]: /about
-[seeds]: /seeds
-[media]: /media
+[about]: {{ .Site.BaseURL }}/about
+[seeds]: {{ .Site.BaseURL }}/seeds
+[media]: {{ .Site.BaseURL }}/media
 [matrix]: https://app.element.io/#/room/#open-source-gardens:matrix.org
 [mastodon]: https://chaos.social/@opensourcegardens
 [peertube]: https://tube.tchncs.de/c/open_source_gardening/videos

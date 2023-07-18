@@ -38,6 +38,6 @@ We encourage decentral seed sharing among yourselves. While we have plans to off
 [osseeds-distributors]: https://osseeds.org/seeds/
 [bioleft]: https://www.bioleft.org/plataforma/
 [planethealth-eu]: http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R2031
-[connecting-gardens]: /connecting-gardens
+[connecting-gardens]: {{ .Site.BaseURL }}/connecting-gardens
 [aimee]: https://aimeefenech.com/
 [mastodon]: https://chaos.social/@opensourcegardens

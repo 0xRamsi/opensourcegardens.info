@@ -14,6 +14,6 @@
   In addition, we use the list to send out our Newsletter that is called "bouquet" and is published irregularly. Usually, we try to collect enough news before sending them out as a letter, which is currently around twice a year. You can also [read our bouquet online][bouquet].
 
 [mastodon]: https://chaos.social/@opensourcegardens
-[posts]: /posts
+[posts]: {{ .Site.BaseURL }}/posts
 [posts-rss]: /posts/index.xml
 [bouquet]: https://write.as/opensourcegardens/tag:bouquet
